@@ -112,6 +112,8 @@ header img:hover {
   background-color: #252525 !important;
   text-transform: uppercase;
   z-index: 1;
+  overflow: hidden !important;
+  
 }
 .luxbar-menu a:hover {
   color: #c60f24;
@@ -881,6 +883,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   background: #1a1a1a;
+  background-color: #434344 !important;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #262626, #111010);
   /* Chrome 10-25, Safari 5.1-6 */
