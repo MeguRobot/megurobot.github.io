@@ -10,11 +10,11 @@
 <!-- LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/xarturia/megubot">
+  <a href="https://github.com/MeguRbbot/MeguRobot">
     <img src="images/megupfp.webp" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Megubot | Telegram management bot</h3>
+  <h3 align="center">MeguRobot | Telegram management bot</h3>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -45,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Acerca del proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://xarturia.github.io/megubot/)
+[![Product Name Screen Shot][product-screenshot]](https://MeguRbbot.github.io/MeguRobot/)
 
 Megu es un bot de Telegram modular, con temática anime, basado en python y con base de datos sqlalchemy.
 El principal objetivo de nuestro proyecto es que puedas administrar tus grupos con la mayor eficacia, eficiencia y facilidad, por ello Megu cuenta con muchas funciones, no sólo administrativas, sinó también divertidas!
@@ -76,7 +76,7 @@ Asegúrate de leer el archivo   ```LICENSE``` para más información.
 * Scam:
 Está absolutamente prohibida la venta y así también la distribución de éste código sin las atribuciones correspondientes.
 * Support:
-Si ha decidido hacer un fork por su cuenta, nosotros no brindamos ningún tipo soporte/ayuda técnica para el mismo, sólo para MeguBot. Ante cualquier problema, asegúrate de leer el repositorio.
+Si ha decidido hacer un fork por su cuenta, nosotros no brindamos ningún tipo soporte/ayuda técnica para el mismo, sólo para MeguRobot. Ante cualquier problema, asegúrate de leer el repositorio.
 * Spamming (megu): 
 Evita usar a Megu para difundir mensajes spam, enlaces a sitios externos poco confiables/pornográficos. Puedes ser reportado y Gbaneado de la red de grupos.
 
@@ -205,7 +205,7 @@ Todo lo que se necesita es que su archivo ```.py``` esté en la carpeta de módu
 
 Para añadir comandos, asegúrate de importar el ```dispatcher``` mediante
 
-```from MeguBot import dispatcher.```
+```from MeguRobot import dispatcher.```
 
 A continuación, puedes añadir comandos utilizando el método habitual
 
@@ -220,7 +220,7 @@ La función ```__stats__()``` es para recuperar las estadísticas del módulo, p
 ## Iniciando el bot.
 Una vez que hayas establecido tu base de datos y tu configuración esté completa, simplemente ejecuta el archivo bat (si estás en Windows) o ejecuta (Linux)
 
-```python3 -m MeguBot```
+```python3 -m MeguRobot```
 
 Puedes usar [nssm](https://nssm.cc/usage) para instalar el bot como servicio en windows y configurarlo para que se reinicie en ```/gitpull```. Asegúrate de editar los bats de inicio y reinicio según tus necesidades. 
 * Nota: ```el bat de reinicio requiere que el control de cuentas de usuario esté desactivado.```
@@ -248,14 +248,14 @@ Distribuído bajo la licencia GLP v3. Para más información revisa ```LICENSES`
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/xarturia/Megubot.svg?style=for-the-badge
-[contributors-url]: https://github.com/xarturia/megubot/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/xarturia/megubot?style=for-the-badge
-[forks-url]: https://github.com/xarturia/megubot/network/members
-[stars-shield]: https://img.shields.io/github/stars/xarturia/megubot?style=for-the-badge
-[stars-url]: https://github.com/xarturia/megubot/stargazers
-[issues-shield]: https://img.shields.io/github/issues/xarturia/megubot?style=for-the-badge
-[issues-url]: https://github.com/xarturia/megubot/issues
+[contributors-shield]: https://img.shields.io/github/contributors/MeguRbbot/MeguRobot.svg?style=for-the-badge
+[contributors-url]: https://github.com/MeguRbbot/MeguRobot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MeguRbbot/MeguRobot?style=for-the-badge
+[forks-url]: https://github.com/MeguRbbot/MeguRobot/network/members
+[stars-shield]: https://img.shields.io/github/stars/MeguRbbot/MeguRobot?style=for-the-badge
+[stars-url]: https://github.com/MeguRbbot/MeguRobot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MeguRbbot/MeguRobot?style=for-the-badge
+[issues-url]: https://github.com/MeguRbbot/MeguRobot/issues
 [license-shield]: https://img.shields.io/badge/License-GPLv3-brightgreen?style=for-the-badge&logo=appveyor
-[license-url]: https://github.com/xarturia/megubot/blob/master/LICENCES.md
+[license-url]: https://github.com/MeguRbbot/MeguRobot/blob/master/LICENCES.md
 [product-screenshot]: https://i.imgur.com/KcCPvoi.png
