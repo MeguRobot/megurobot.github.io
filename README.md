@@ -10,7 +10,7 @@
 <!-- LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/MeguRbbot/MeguRobot">
+  <a href="https://github.com/MeguRobot/MeguRobot">
     <img src="images/megupfp.webp" alt="Logo" width="80" height="80">
   </a>
 
